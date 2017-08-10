@@ -1,0 +1,18 @@
+{
+  "name": "ingress-trello-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "miaonster",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 reload ecosystem.config.js --env production",
+    "start-dev": "pm2 reload ecosystem.config.js --env dev"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongodb": "^2.2.31",
+    "node-schedule": "^1.2.3",
+    "pm2": "^2.6.1"
+  }
+}
