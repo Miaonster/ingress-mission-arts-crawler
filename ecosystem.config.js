@@ -10,7 +10,7 @@ module.exports = {
   apps: [
     {
       name: 'IngressMissionArtsCrawlerSchedule',
-      script: './schedule.js',
+      script: './src/schedule.js',
       env_production: {
         NODE_ENV: 'production',
       },
